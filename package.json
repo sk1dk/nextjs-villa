@@ -1,16 +1,25 @@
-
-    {
-      "name": "my-nextjs-app",
-      "version": "1.0.0",
-      "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start"
-      },
-      "dependencies": {
-        "next": "latest",
-        "react": "latest",
-        "react-dom": "latest"
-      }
-    }
-    
+{
+  "name": "my-nextjs-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.11",         // Make sure you have the correct Next.js version here
+    "react": "^18.2.0",        // Replace with the correct version of React if needed
+    "react-dom": "^18.2.0"     // Replace with the correct version of React DOM if needed
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",    // Add the latest version of TypeScript
+    "@types/react": "^18.0.0", // Add React types for TypeScript
+    "@types/node": "^18.0.0",  // Add Node types for TypeScript
+    "eslint": "latest",        // Optional: Add eslint if you are using linting
+    "eslint-config-next": "latest" // Optional: Add ESLint config for Next.js if using linting
+  },
+  "engines": {
+    "node": ">=14.0.0"        // Define the required Node.js version
+  }
+}
