@@ -8,18 +8,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.11",         // Make sure you have the correct Next.js version here
-    "react": "^18.2.0",        // Replace with the correct version of React if needed
-    "react-dom": "^18.2.0"     // Replace with the correct version of React DOM if needed
+    "next": "14.2.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",    // Add the latest version of TypeScript
-    "@types/react": "^18.0.0", // Add React types for TypeScript
-    "@types/node": "^18.0.0",  // Add Node types for TypeScript
-    "eslint": "latest",        // Optional: Add eslint if you are using linting
-    "eslint-config-next": "latest" // Optional: Add ESLint config for Next.js if using linting
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/node": "^18.0.0",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
   },
   "engines": {
-    "node": ">=14.0.0"        // Define the required Node.js version
+    "node": ">=14.0.0"
   }
 }
